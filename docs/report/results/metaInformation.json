@@ -1,0 +1,18 @@
+{
+  "total": 0,
+  "tools inspection": {
+    "Code Inspection": 0
+  },
+  "attributes": {
+    "vcs": {
+      "sarifIdea": {
+        "repositoryUri": "https://github.com/gekal-study-cicd/github-acction-sample",
+        "revisionId": "36cf20f41c0e737abe6d234d14efa1610186efd9",
+        "branch": "main"
+      }
+    },
+    "deviceId": "200820300000000-11dd-5024-3d65-efa85fe4454a",
+    "jobUrl": "https://github.com/gekal-study-cicd/github-acction-sample/actions/runs/3188102575",
+    "repoUrl": "https://github.com/gekal-study-cicd/github-acction-sample"
+  }
+}

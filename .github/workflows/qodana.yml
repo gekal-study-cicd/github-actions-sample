@@ -1,0 +1,56 @@
+name: Qodana
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - .github/workflows/qodana.yml
+  pull_request:
+    types: [ opened, synchronize ]
+    branches: [ main ]
+
+jobs:
+  qodana:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          server-id: github
+          settings-path: ${{ github.workspace }}
+      - name: Build with Maven
+        run: mvn -B package --file pom.xml
+
+      - name: Qodana - Code Inspection
+        uses: JetBrains/qodana-action@v2022.2.2
+        with:
+          results-dir: docs
+      - run: ls -l
+      - run: ls -l
+        working-directory: docs
+      - name: Count changes
+        id: changes
+        run: |
+          git add -N docs
+          echo "::set-output name=count::$(git diff --name-only docs | wc -l)"
+      - run: echo ${{ steps.changes.outputs.count }}
+      - name: Deploy to GitHub Pages
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add docs
+          git commit -m "Qodana report"
+          git push
+        if: steps.changes.outputs.count > 0
+      - uses: actions/upload-artifact@v3.1.0
+        with:
+          name: result
+          path: qodana
+      - uses: actions/upload-artifact@v3.1.0
+        with:
+          name: report
+          path: docs

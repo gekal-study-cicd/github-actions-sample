@@ -1,0 +1,8 @@
+{
+  "modules": [
+    {
+      "name": "githubactions",
+      "languageLevel": 17
+    }
+  ]
+}
