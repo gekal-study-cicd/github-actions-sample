@@ -1,36 +1,36 @@
 {
   "pageCacheStats" : {
     "cachedChannelsStatistics" : {
-      "hit" : 2925,
+      "hit" : 3435,
       "miss" : 1,
       "load" : 133,
       "capacity" : 400
     },
-    "uncachedFileAccess" : 283,
+    "uncachedFileAccess" : 289,
     "maxRegisteredFiles" : 444,
     "maxCacheSizeInBytes" : 346832896,
-    "pageHit" : 141741,
-    "pageFastCacheHit" : 9800460,
+    "pageHit" : 148537,
+    "pageFastCacheHit" : 9771661,
     "pageMiss" : 0,
-    "pageLoad" : 2494,
-    "disposedBuffers" : 1618,
+    "pageLoad" : 2496,
+    "disposedBuffers" : 1620,
     "capacityInBytes" : 524288000
   },
   "vfsStorageStats" : {
     "statsPerEnumerator" : {
       "contentHashes.dat" : {
         "collisions" : 0,
-        "values" : 54,
-        "dataFileSizeInBytes" : 1080,
+        "values" : 56,
+        "dataFileSizeInBytes" : 1120,
         "storageSizeInBytes" : 96,
         "btreeStatistics" : {
           "pages" : 1,
-          "elements" : 54,
+          "elements" : 56,
           "height" : 1,
           "moves" : 0,
           "leafPages" : 1,
           "maxSearchStepsInRequest" : 0,
-          "searchRequests" : 141,
+          "searchRequests" : 143,
           "searchSteps" : 0,
           "pageCapacity" : 32768,
           "sizeInBytes" : 32768
@@ -38,18 +38,18 @@
       },
       "names.dat" : {
         "collisions" : 8,
-        "values" : 80848,
-        "dataFileSizeInBytes" : 2633039,
+        "values" : 80896,
+        "dataFileSizeInBytes" : 2634194,
         "storageSizeInBytes" : 192,
         "btreeStatistics" : {
           "pages" : 33,
-          "elements" : 80843,
+          "elements" : 80891,
           "height" : 2,
           "moves" : 227,
           "leafPages" : 32,
-          "maxSearchStepsInRequest" : 79,
-          "searchRequests" : 315348,
-          "searchSteps" : 425889,
+          "maxSearchStepsInRequest" : 68,
+          "searchRequests" : 316032,
+          "searchSteps" : 427920,
           "pageCapacity" : 32768,
           "sizeInBytes" : 1081344
         }

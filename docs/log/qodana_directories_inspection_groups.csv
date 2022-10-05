@@ -1,10 +1,10 @@
 Directory;Absolute Time spent on Inspection Group 'all', s;Percent of Time spent on Inspection Group 'all';Inspections Problem Count in Group 'all';Times Inspection from Group 'all' was Performed
-/data/project;8.57;100.00%;0;799
-/data/project/src/main;7.36;85.85%;0;643
-/data/project/src/main/java/cn/gekal/sample/cicd/githubactions;7.36;85.85%;0;637
-/data/project/src/main/java/cn/gekal/sample/cicd/githubactions/controller;5.64;65.85%;0;385
+/data/project;8.83;100.00%;1;792
+/data/project/src/main;7.99;90.47%;1;637
+/data/project/src/main/java/cn/gekal/sample/cicd/githubactions;7.99;90.47%;1;631
+/data/project/src/main/java/cn/gekal/sample/cicd/githubactions/controller;6.59;74.65%;1;384
 /data/project/src/main/resources;0.00;0.00%;0;6
-/data/project/docs/log;0.59;6.94%;0;107
-/data/project/docs/log/indexing-diagnostic/project.15375f63;0.05;0.54%;0;61
-/data/project/.github/workflows;0.00;0.01%;0;7
-/data/project/.mvn/wrapper;0.00;0.01%;0;3
+/data/project/docs/log;0.49;5.51%;0;107
+/data/project/docs/log/indexing-diagnostic/project.15375f63;0.10;1.18%;0;61
+/data/project/.github/workflows;0.00;0.00%;0;6
+/data/project/.mvn/wrapper;0.00;0.00%;0;3

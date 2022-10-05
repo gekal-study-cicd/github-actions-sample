@@ -1,25 +1,25 @@
-2022-10-05 07:44:43,992 [     11]   INFO - #c.i.i.StartupUtil - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
-2022-10-05 07:44:44,145 [    164]   INFO - #c.i.i.p.PluginManager - Ignoring cached broken plugins file from an earlier IDE build (IC-222.4301)
-2022-10-05 07:44:44,278 [    297]   INFO - #c.i.i.StartupUtil - JNA library (64-bit) loaded in 11 ms
-2022-10-05 07:44:44,322 [    341]   INFO - #c.i.i.StartupUtil - IDE: Qodana Community for JVM (build #QDJVMC-222.4301.126, 20 Sep 2022 04:04)
-2022-10-05 07:44:44,323 [    342]   INFO - #c.i.i.StartupUtil - OS: Linux (5.15.0-1020-azure, amd64)
-2022-10-05 07:44:44,330 [    349]   INFO - #c.i.i.StartupUtil - JRE: 11.0.12+7-b1729.1 (JetBrains s.r.o.)
-2022-10-05 07:44:44,331 [    350]   INFO - #c.i.i.StartupUtil - JVM: 11.0.12+7-b1729.1 (OpenJDK 64-Bit Server VM)
-2022-10-05 07:44:44,344 [    363]   INFO - #c.i.i.StartupUtil - PID: 12
-2022-10-05 07:44:44,349 [    368]   INFO - #c.i.i.StartupUtil - WM detected: null, desktop: -
-2022-10-05 07:44:44,358 [    377]   INFO - #c.i.i.StartupUtil - JVM options: [-Dfus.internal.reduce.initial.delay=true, -Didea.application.info.value=/opt/idea/bin/QodanaAppInfo.xml, -Didea.config.path=/root/.config/idea, -Didea.headless.enable.statistics=true, -Didea.headless.statistics.device.id=200820300000000-11dd-5024-3d65-efa85fe4454a, -Didea.headless.statistics.max.files.to.send=5000, -Didea.headless.statistics.salt=4c9732728d0b5ec7d5d9a4526e0f54d5, -Didea.log.config.file=/opt/idea/bin/log.xml, -Didea.log.path=/data/results/log/, -Didea.parent.prefix=Idea, -Didea.platform.prefix=Qodana, -Didea.system.path=/data/cache/idea/222, -Dinspect.save.project.settings=true, -Djava.awt.headless=true, -Djava.net.useSystemProxies=true, -Djdk.attach.allowAttachSelf=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -Dqodana.automation.guid=ee80456a-8d98-4263-ab23-a50c54f4cf34, -Dsun.io.useCanonCaches=false, -Dsun.tools.attach.tmp.only=true, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:CICompilerCount=2, -XX:ErrorFile=/data/results/log/java_error_in_IDEA.log, -XX:HeapDumpPath=/data/results/log/OOMheapdump.hprof, -XX:MaxJavaStackTraceDepth=10000, -XX:MaxRAMPercentage=70, -XX:ReservedCodeCacheSize=350m, -XX:SoftRefLRUPolicyMSPerMB=5, -Xlog:gc*:/data/results/log/gc.log, -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005,quiet=y, -ea, -Djb.vmOptionsFile=/opt/idea/bin/idea64.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.strict.classpath=true, -Didea.vendor.name=JetBrains, -Didea.paths.selector=IdeaIC2022.2, -Didea.jre.check=true, -Dsplash=true, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED]
-2022-10-05 07:44:44,359 [    378]   INFO - #c.i.i.StartupUtil - args: [inspect, qodana, --stub-profile, /data/profile.xml, /data/project, /data/results]
-2022-10-05 07:44:44,359 [    378]   INFO - #c.i.i.StartupUtil - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
-2022-10-05 07:44:44,360 [    379]   INFO - #c.i.i.StartupUtil - boot library path: /usr/lib/jvm/jbr/lib
-2022-10-05 07:44:44,389 [    408]   INFO - #c.i.i.StartupUtil - locale=en_US JNU=UTF-8 file.encoding=UTF-8
+2022-10-05 23:30:41,827 [      3]   INFO - #c.i.i.StartupUtil - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2022-10-05 23:30:42,003 [    179]   INFO - #c.i.i.p.PluginManager - Ignoring cached broken plugins file from an earlier IDE build (IC-222.4301)
+2022-10-05 23:30:42,203 [    379]   INFO - #c.i.i.StartupUtil - JNA library (64-bit) loaded in 22 ms
+2022-10-05 23:30:42,280 [    456]   INFO - #c.i.i.StartupUtil - IDE: Qodana Community for JVM (build #QDJVMC-222.4301.126, 20 Sep 2022 04:04)
+2022-10-05 23:30:42,281 [    457]   INFO - #c.i.i.StartupUtil - OS: Linux (5.15.0-1020-azure, amd64)
+2022-10-05 23:30:42,295 [    471]   INFO - #c.i.i.StartupUtil - JRE: 11.0.12+7-b1729.1 (JetBrains s.r.o.)
+2022-10-05 23:30:42,295 [    471]   INFO - #c.i.i.StartupUtil - JVM: 11.0.12+7-b1729.1 (OpenJDK 64-Bit Server VM)
+2022-10-05 23:30:42,300 [    476]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=/opt/idea/plugins/Groovy, version=222.4301, package=org.jetbrains.plugins.groovy, isBundled=true) misses optional descriptor duplicates-groovy.xml
+2022-10-05 23:30:42,301 [    477]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=/opt/idea/plugins/Groovy, version=222.4301, package=org.jetbrains.plugins.groovy, isBundled=true) misses optional descriptor duplicates-detection-groovy.xml
+2022-10-05 23:30:42,311 [    487]   INFO - #c.i.i.StartupUtil - PID: 13
+2022-10-05 23:30:42,327 [    503]   INFO - #c.i.i.StartupUtil - WM detected: null, desktop: -
+2022-10-05 23:30:42,328 [    504]   INFO - #c.i.i.StartupUtil - JVM options: [-Dfus.internal.reduce.initial.delay=true, -Didea.application.info.value=/opt/idea/bin/QodanaAppInfo.xml, -Didea.config.path=/root/.config/idea, -Didea.headless.enable.statistics=true, -Didea.headless.statistics.device.id=200820300000000-a8fc-acb2-a7ab-c9385ec91e57, -Didea.headless.statistics.max.files.to.send=5000, -Didea.headless.statistics.salt=073619977ae4fe9b32365fcf6b7bb77f, -Didea.log.config.file=/opt/idea/bin/log.xml, -Didea.log.path=/data/results/log/, -Didea.parent.prefix=Idea, -Didea.platform.prefix=Qodana, -Didea.system.path=/data/cache/idea/222, -Dinspect.save.project.settings=true, -Djava.awt.headless=true, -Djava.net.useSystemProxies=true, -Djdk.attach.allowAttachSelf=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -Dqodana.automation.guid=4b8f8437-2dc8-4ba7-819f-f2fff26f716d, -Dsun.io.useCanonCaches=false, -Dsun.tools.attach.tmp.only=true, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:CICompilerCount=2, -XX:ErrorFile=/data/results/log/java_error_in_IDEA.log, -XX:HeapDumpPath=/data/results/log/OOMheapdump.hprof, -XX:MaxJavaStackTraceDepth=10000, -XX:MaxRAMPercentage=70, -XX:ReservedCodeCacheSize=350m, -XX:SoftRefLRUPolicyMSPerMB=5, -Xlog:gc*:/data/results/log/gc.log, -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005,quiet=y, -ea, -Djb.vmOptionsFile=/opt/idea/bin/idea64.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.strict.classpath=true, -Didea.vendor.name=JetBrains, -Didea.paths.selector=IdeaIC2022.2, -Didea.jre.check=true, -Dsplash=true, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED]
+2022-10-05 23:30:42,328 [    504]   INFO - #c.i.i.StartupUtil - args: [inspect, qodana, --stub-profile, /data/profile.xml, /data/project, /data/results]
+2022-10-05 23:30:42,329 [    505]   INFO - #c.i.i.StartupUtil - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2022-10-05 23:30:42,329 [    505]   INFO - #c.i.i.StartupUtil - boot library path: /usr/lib/jvm/jbr/lib
+2022-10-05 23:30:42,377 [    553]   INFO - #c.i.i.StartupUtil - locale=en_US JNU=UTF-8 file.encoding=UTF-8
   idea.config.path=/root/.config/idea
   idea.system.path=/data/cache/idea/222
   idea.plugins.path=/root/.config/idea/plugins
   idea.log.path=/data/results/log
-2022-10-05 07:44:44,410 [    429]   INFO - #c.i.i.StartupUtil - CPU cores: 2; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@696cfd89[Running, parallelism = 2, size = 2, active = 2, running = 2, steals = 2, tasks = 0, submissions = 2]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@5a84f192
-2022-10-05 07:44:44,437 [    456]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=/opt/idea/plugins/Groovy, version=222.4301, package=org.jetbrains.plugins.groovy, isBundled=true) misses optional descriptor duplicates-groovy.xml
-2022-10-05 07:44:44,445 [    464]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=/opt/idea/plugins/Groovy, version=222.4301, package=org.jetbrains.plugins.groovy, isBundled=true) misses optional descriptor duplicates-detection-groovy.xml
-2022-10-05 07:44:44,610 [    629]   INFO - #c.i.i.p.PluginManager - Module kotlin.copyright is not enabled because dependency com.intellij.copyright is not available
+2022-10-05 23:30:42,420 [    596]   INFO - #c.i.i.StartupUtil - CPU cores: 2; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@19dc84bc[Running, parallelism = 2, size = 2, active = 2, running = 2, steals = 2, tasks = 15, submissions = 2]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@3d7ced9c
+2022-10-05 23:30:42,593 [    769]   INFO - #c.i.i.p.PluginManager - Module kotlin.copyright is not enabled because dependency com.intellij.copyright is not available
 Module kotlin.features-trainer is not enabled because dependency training is not available
 Module kotlin.ml-completion is not enabled because dependency com.intellij.completion.ml.ranking is not available
 Module kotlin.grazie is not enabled because dependency tanvd.grazi is not available
@@ -37,145 +37,124 @@ Module intellij.java.devkit is not enabled because dependency intellij.dev.psiVi
 Module intellij.devkit.images is not enabled because dependency com.intellij.platform.images is not available
 Module kotlin-ultimate.common-for-kotlin is not enabled because dependency com.intellij.nativeDebug is not available
 Module kotlin-ultimate.ultimate-native is not enabled because dependency kotlin-ultimate.common-for-kotlin is not available
-2022-10-05 07:44:44,624 [    643]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: Gradle (222.4301), TestNG (222.4301), Subversion (222.4301), Ant (222.4301), EditorConfig (222.4301), Lombok (222.4301), Properties (222.4301), JetBrains Repository Search (222.4301), UI Designer (222.4301), Mercurial (222.4301), Eclipse Interoperability (222.4301), Configuration Script (222.4301), Kotlin (222-1.7.10-release-334-IJ4301), IDEA CORE (222.4301.126), Plugin DevKit (222.4301), Git (222.4301), Groovy (222.4301), XPathView + XSLT (222.4301), Static Analysis Project (222.4301), Gradle-Java (222.4301), JUnit (222.4301), Java Internationalization (222.4301), IntelliLang (222.4301), Java (222.4301), Maven (222.4301), JetBrains maven model api classes (222.4301), Java IDE Customization (222.4301)
-2022-10-05 07:44:44,689 [    708]   INFO - #c.i.c.InspectionApplication - Command line arguments: [inspect, qodana, --stub-profile, /data/profile.xml, /data/project, /data/results]
-2022-10-05 07:44:44,757 [    776]   INFO - STDOUT - By using this Docker image, you agree to
-2022-10-05 07:44:44,758 [    777]   INFO - STDOUT - - JetBrains Privacy Policy (https://jb.gg/jetbrains-privacy-policy)
-2022-10-05 07:44:44,759 [    778]   INFO - STDOUT - - Qodana Community Linters Agreement (https://jb.gg/qodana-community-linters)
-2022-10-05 07:44:44,854 [    873]   INFO - #c.i.u.i.FilePageCache - lower=100; upper=500; buffer=10; max=4842
-2022-10-05 07:44:45,025 [   1044]   INFO - #c.i.u.s.JBUIScale - System scale factor: 1.0 (IDE-managed HiDPI)
-2022-10-05 07:44:45,266 [   1285]   INFO - #c.i.u.i.s.AbstractStorage - Space waste in /data/cache/idea/222/caches/attrib.dat is 3421880 bytes. Compacting now.
-2022-10-05 07:44:45,824 [   1843]   INFO - STDOUT -                                         
-2022-10-05 07:44:45,824 [   1843]   INFO - STDOUT -           _              _       
-2022-10-05 07:44:45,825 [   1844]   INFO - STDOUT -          /\ \           /\ \        Qodana Community for JVM 2022.2
-2022-10-05 07:44:45,826 [   1845]   INFO - STDOUT -         /  \ \         /  \ \       Documentation
-2022-10-05 07:44:45,826 [   1845]   INFO - STDOUT -        / /\ \ \       / /\ \ \      https://jb.gg/qodana-docs
-2022-10-05 07:44:45,827 [   1846]   INFO - STDOUT -       / / /\ \ \     / / /\ \ \     Contact us at
-2022-10-05 07:44:45,827 [   1846]   INFO - STDOUT -      / / /  \ \_\   / / /  \ \_\    qodana-support@jetbrains.com
-2022-10-05 07:44:45,827 [   1846]   INFO - STDOUT -     / / / _ / / /  / / /   / / /    Or via our issue tracker
-2022-10-05 07:44:45,828 [   1847]   INFO - STDOUT -    / / / /\ \/ /  / / /   / / /     https://jb.gg/qodana-issue
-2022-10-05 07:44:45,829 [   1848]   INFO - STDOUT -   / / /__\ \ \/  / / /___/ / /      Or share your feedback at our forum
-2022-10-05 07:44:45,829 [   1848]   INFO - STDOUT -  / / /____\ \ \ / / /____\/ /       https://jb.gg/qodana-forum
-2022-10-05 07:44:45,830 [   1849]   INFO - STDOUT -  \/________\_\/ \/_________/     
-2022-10-05 07:44:45,830 [   1849]   INFO - STDOUT -                                                    
-2022-10-05 07:44:45,831 [   1850]   INFO - STDOUT -                                         
-2022-10-05 07:44:45,843 [   1862]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
-2022-10-05 07:44:45,846 [   1865]   INFO - STDOUT - Starting up Qodana Community for JVM 2022.2 (build QDJVMC-222.4301.126) ...done.
-2022-10-05 07:44:45,906 [   1925]   INFO - #o.j.p.s.i.r.ConsoleLog - Preparing for the Project opening stage ...
-2022-10-05 07:44:45,910 [   1929]   INFO - STDOUT - Preparing for the Project opening stage ...
-2022-10-05 07:44:46,074 [   2093]   INFO - #c.i.u.i.s.AbstractStorage - Done compacting in 807msec.
-2022-10-05 07:44:46,128 [   2147]   INFO - #c.i.o.v.n.p.PersistentFSConnector - 39 ms to load free records and inverted name index
-2022-10-05 07:44:46,150 [   2169]   WARN - #c.i.o.u.r.RegistryValue - Attempt to load key 'indexing.filename.over.vfs' for not yet loaded registry
-2022-10-05 07:44:46,245 [   2264]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is disabled
-2022-10-05 07:44:46,335 [   2354]   INFO - STDOUT - 
-2022-10-05 07:44:46,413 [   2432]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'unknown.sdk.auto' has changed to 'false'
-2022-10-05 07:44:46,432 [   2451]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'external.system.auto.import.disabled' has changed to 'true'
-2022-10-05 07:44:46,432 [   2451]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'android.gradle.project.startup.activity.disabled' has changed to 'true'
-2022-10-05 07:44:46,432 [   2451]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'android.sdk.local.properties.update.disabled' has changed to 'true'
-2022-10-05 07:44:46,436 [   2455]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'external.system.auto.import.disabled' has changed to 'true'
-2022-10-05 07:44:46,436 [   2455]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'maven.create.dummy.module.on.first.import' has changed to 'false'
-2022-10-05 07:44:46,565 [   2584]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {MAVEN_REPOSITORY=/root/.m2/repository}
-2022-10-05 07:44:46,663 [   2682]   INFO - #c.i.p.i.a.w.LegacyBridgeArtifactManagerRedefiner - Using workspace model to open project
-2022-10-05 07:44:46,683 [   2702]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63342
-2022-10-05 07:44:47,594 [   3613]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Load workspace model from cache in 695 ms
-2022-10-05 07:44:47,780 [   3799]   INFO - c.i.u.i.FileBasedIndexDataInitialization - Index data initialization done: 2371 ms. Initialized indexes: [FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, editorconfig.index.name, xmlProperties, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.intellij.uiDesigner.FormClassIndex, XsltSymbolIndex, LombokConfigIndex, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, ant-imports].
-2022-10-05 07:44:47,985 [   4004]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
-2022-10-05 07:44:47,986 [   4005]   INFO - c.i.p.s.StubIndexImpl$StubIndexInitialization - Index data initialization done: 206 ms. Initialized stub indexes: {org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex, java.class.fqn, dom.namespaceKey, gr.field.name, java.method.parameter.types, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex, gr.class.fqn, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, gr.method.name, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSubclassObjectNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, kotlin.primeIndexKey, gr.script.class, jvm.static.member.name, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, jvm.static.member.type, org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinInnerTypeAliasClassIdIndex, gr.anonymous.class, org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex, java.annotations, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex, properties.index, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex, gr.annot.method.name, java.method.name, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, dom.elementClass, java.module.name, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, java.class.extlist, java.anonymous.baseref, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, java.field.name, gr.script.fqn, gr.annot.members, java.class.shortname, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, gr.class.super, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex}.
-2022-10-05 07:44:48,128 [   4147]   INFO - #c.i.o.v.i.p.NewMappings - VCS Root: [Git] - [<Project>]
-2022-10-05 07:44:49,017 [   5036]   INFO - STDOUT - (Project opening) Opening project...
-2022-10-05 07:44:49,018 [   5037]   INFO - STDOUT -                                                                                 
-2022-10-05 07:44:49,242 [   5261]   INFO - #c.i.u.i.UnindexedFilesUpdater - Started scanning for indexing of project. Reason: On project open
-2022-10-05 07:44:49,246 [   5265]   INFO - #c.i.d.JitWatcher - JIT compilation state checking enabled
-2022-10-05 07:44:49,265 [   5284]   INFO - #c.i.u.i.UnindexedFilesUpdater - Performing delayed pushing properties tasks for project took 8ms; general responsiveness: ok; EDT responsiveness: ok
-2022-10-05 07:44:49,457 [   5476]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning of project uses 2 scanning threads
-2022-10-05 07:44:51,498 [   7517]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning completed for project. Number of scanned files: 49528; Number of files for indexing: 0 took 2232ms; general responsiveness: ok; EDT responsiveness: ok
-2022-10-05 07:44:51,835 [   7854]   INFO - #c.i.o.a.i.ApplicationImpl - LONG VFS PROCESSING. Topic=BulkFileListener, offender=class com.intellij.openapi.vfs.newvfs.AsyncEventSupport$1, message=before, time=242ms
-2022-10-05 07:44:51,994 [   8013]   INFO - #c.i.o.a.i.ApplicationImpl - LONG VFS PROCESSING. Topic=BulkFileListener, offender=class com.intellij.openapi.vfs.newvfs.AsyncEventSupport$1, message=after, time=51ms
-2022-10-05 07:44:52,023 [   8042]   INFO - #c.i.u.i.UnindexedFilesUpdater - Finished for project. No files to index with loading content.
-2022-10-05 07:44:52,654 [   8673]   INFO - #c.i.u.i.FileBasedIndexProjectHandler - Reindexing refreshed files of project : 20218 to update, calculated in 560ms
-2022-10-05 07:44:52,670 [   8689]   INFO - #c.i.u.i.FileBasedIndexProjectHandler - Using 2 threads for indexing
-2022-10-05 07:44:57,413 [  13432]   INFO - #c.i.d.PerformanceWatcherImpl - Reindexing refreshed files of project took 4748ms; general responsiveness: ok; EDT responsiveness: ok
-2022-10-05 07:44:57,425 [  13444]   INFO - #c.i.o.p.u.AbstractProgressIndicatorBase - This progress indicator (ProgressIndicatorEx 1071550566: running=true; canceled=false) is indeterminate, this may lead to visual inconsistency. Please call setIndeterminate(false) before you start progress. class com.intellij.codeInspection.InspectionApplicationBase$InspectionProgressIndicator
-java.lang.IllegalStateException
-	at com.intellij.openapi.progress.util.AbstractProgressIndicatorBase.setFraction(AbstractProgressIndicatorBase.java:196)
-	at com.intellij.openapi.progress.util.AbstractProgressIndicatorExBase.setFraction(AbstractProgressIndicatorExBase.java:124)
-	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner$IndexingJob.oneMoreFileProcessed(IndexUpdateRunner.java:513)
-	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexOneFileOfJob(IndexUpdateRunner.java:303)
-	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexJobsFairly$3(IndexUpdateRunner.java:217)
-	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexJobsFairly(IndexUpdateRunner.java:222)
-	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$doIndexFiles$2(IndexUpdateRunner.java:154)
-	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:241)
-	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:31)
-	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:214)
-	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:212)
-	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:203)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
-	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-2022-10-05 07:44:57,443 [  13462]   INFO - #c.i.c.InspectionApplicationBase - Waiting for startup activities
-2022-10-05 07:44:57,615 [  13634]   INFO - #g.c.GitHandler - [.] git version
-2022-10-05 07:44:57,634 [  13653]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 3 millis (read time: 1)
-2022-10-05 07:44:57,648 [  13667]   INFO - #g.c.GitHandler - git version 2.25.1
-2022-10-05 07:44:57,664 [  13683]   INFO - #g.c.GitExecutableManager - Git version for /usr/bin/git: 2.25.1.0 (UNIX)
-2022-10-05 07:44:57,707 [  13726]   INFO - #c.i.o.v.i.p.NewMappings - Mapped Roots: 1
-2022-10-05 07:44:58,326 [  14345]   INFO - #c.i.c.CompilerWorkspaceConfiguration - Available processors: 2
-2022-10-05 07:44:58,604 [  14623]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
-2022-10-05 07:44:58,999 [  15018]   INFO - #c.i.i.s.i.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to run them in background under modal progress, or just making them faster to speed up project opening.
-2022-10-05 07:44:59,139 [  15158]   INFO - #c.i.c.InspectionApplicationBase - Startup activities finished
-2022-10-05 07:44:59,139 [  15158]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 1721ms; general responsiveness: ok; EDT responsiveness: ok
-2022-10-05 07:44:59,290 [  15309]   INFO - #c.i.o.a.i.ApplicationImpl - LONG VFS PROCESSING. Topic=BulkFileListener, offender=class com.intellij.psi.impl.file.impl.PsiVFSListener$1, message=after, time=53ms
-2022-10-05 07:44:59,732 [  15751]   INFO - #c.i.u.i.FileBasedIndexProjectHandler - Reindexing refreshed files of project : 29 to update, calculated in 0ms
-2022-10-05 07:44:59,733 [  15752]   INFO - #c.i.u.i.FileBasedIndexProjectHandler - Using 2 threads for indexing
-2022-10-05 07:45:00,091 [  16110]   INFO - #c.i.d.PerformanceWatcherImpl - Reindexing refreshed files of project took 359ms; general responsiveness: ok; EDT responsiveness: ok
-2022-10-05 07:45:00,197 [  16216]   INFO - STDOUT - (Project opening) Preparing workspace... 50%
-2022-10-05 07:45:00,197 [  16216]   INFO - STDOUT -                                                                                 
-2022-10-05 07:45:00,202 [  16221]   INFO - STDOUT - (Project opening) done.
-2022-10-05 07:45:00,202 [  16221]   INFO - #o.j.p.s.i.r.ConsoleLog - The Project opening stage completed in 14s
-2022-10-05 07:45:00,203 [  16222]   INFO - STDOUT - The Project opening stage completed in 14s
-2022-10-05 07:45:00,758 [  16777]   INFO - #o.j.p.s.i.r.QodanaInspectionApplication - Used scope: Project Files
-2022-10-05 07:45:00,760 [  16779]   INFO - STDOUT - Initializing project...Inspecting with the 'qodana.starter' profile
-2022-10-05 07:45:00,763 [  16782]   INFO - STDOUT - Loaded the 'qodana.sanity' shared project profile
-2022-10-05 07:45:00,988 [  17007]   INFO - #o.j.p.s.i.r.QodanaInspectionApplication - The 'qodana.sanity' profile is configured for sanity checks
-2022-10-05 07:45:01,391 [  17410]   INFO - #o.j.p.s.i.r.QodanaInspectionApplication - The 'qodana.recommended' profile is configured for promo checks
-2022-10-05 07:45:01,649 [  17668]   INFO - STDOUT - Using 'default' script as qodana run scenario
-2022-10-05 07:45:01,786 [  17805]   INFO - STDOUT -  0%
-2022-10-05 07:45:03,489 [  19508]   INFO - STDOUT -  0%
-2022-10-05 07:45:03,590 [  19609]   INFO - #o.j.p.s.i.r.AsyncInspectionToolResultWriter - Async result writer started
-2022-10-05 07:45:03,629 [  19648]   INFO - #c.i.i.b.BookmarkManager - no state loaded for old bookmarks
-2022-10-05 07:45:03,634 [  19653]   INFO - #c.i.i.f.FavoritesManager - no state loaded for old favorites
-2022-10-05 07:45:03,792 [  19811]   INFO - #o.j.p.s.i.r.ConsoleLog - Preparing for the Project configuration stage ...
-2022-10-05 07:45:03,792 [  19811]   INFO - STDOUT - Preparing for the Project configuration stage ...
-2022-10-05 07:45:03,816 [  19835]   INFO - #o.j.i.m.MavenCommandLineInspectionProjectConfigurator - maven project: project is linked: false
-2022-10-05 07:45:03,975 [  19994]   INFO - #o.j.i.maven - Sent token to maven server
-2022-10-05 07:45:04,217 [  20236]   INFO - #c.i.d.MemorySizeConfigurator - Memory size configurator skipped: Unable to determine current -Xmx. VM options file is /opt/idea/bin/idea64.vmoptions
-2022-10-05 07:45:04,257 [  20276]   INFO - #o.j.j.b.i.CompilerReferenceIndex - backward reference index version doesn't exist
-2022-10-05 07:45:04,282 [  20301]   INFO - #c.i.c.b.IsUpToDateCheckStartupActivity - suitable consumer is not found
-2022-10-05 07:45:05,042 [  21061]   INFO - #o.j.i.maven - start install wrapper https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.6/apache-maven-3.8.6-bin.zip
-2022-10-05 07:45:05,531 [  21550]   INFO - #o.j.i.maven - finish install wrapper https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.6/apache-maven-3.8.6-bin.zip
-2022-10-05 07:45:05,537 [  21556]   INFO - #o.j.i.maven - [connector] MavenServerConnector{26609ba2, myDistribution=/opt/idea/plugins/maven/lib/maven3, myJdk=jbr-11, myMultimoduleDirectories=[/data/project]} is incompatible, restarting
-2022-10-05 07:45:05,539 [  21558]   INFO - #c.i.e.r.RemoteProcessSupport - Terminating: 127.0.0.1:60025/Maven36ServerImplea6d7b7c
-2022-10-05 07:45:05,550 [  21569]   INFO - #o.j.i.maven - Sent token to maven server
-2022-10-05 07:45:06,266 [  22285]   INFO - #o.j.i.m.p.MavenProjectsProcessor - [maven import] MavenProjectsProcessorReadingTask took 1218ms
-2022-10-05 07:45:33,794 [  49813]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project configuration ... so far 30s
-2022-10-05 07:45:33,796 [  49815]   INFO - STDOUT - 
-2022-10-05 07:45:33,797 [  49816]   INFO - STDOUT -                                                                                 
-2022-10-05 07:46:03,798 [  79817]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project configuration ... so far 1m
-2022-10-05 07:46:03,798 [  79817]   INFO - STDOUT - (Project configuration) Keep running Project configuration ... so far 30s
-2022-10-05 07:46:03,798 [  79817]   INFO - STDOUT -                                                                                 
-2022-10-05 07:46:33,798 [ 109817]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project configuration ... so far 1m 30s
-2022-10-05 07:46:33,799 [ 109818]   INFO - STDOUT - (Project configuration) Keep running Project configuration ... so far 1m
-2022-10-05 07:46:33,799 [ 109818]   INFO - STDOUT -                                                                                 
-2022-10-05 07:47:03,800 [ 139819]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project configuration ... so far 2m
-2022-10-05 07:47:03,800 [ 139819]   INFO - STDOUT - (Project configuration) Keep running Project configuration ... so far 1m 30s
-2022-10-05 07:47:03,800 [ 139819]   INFO - STDOUT -                                                                                 
-2022-10-05 07:47:33,801 [ 169820]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project configuration ... so far 2m 30s
-2022-10-05 07:47:33,801 [ 169820]   INFO - STDOUT - (Project configuration) Keep running Project configuration ... so far 2m
-2022-10-05 07:47:33,801 [ 169820]   INFO - STDOUT -                                                                                 
-2022-10-05 07:47:55,380 [ 191399]   INFO - #c.i.u.i.RootChangesLogger - New rootsChanged event for "project" project with partial rescanning with trace_hash = 142936906:
+2022-10-05 23:30:42,607 [    783]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: Groovy (222.4301), XPathView + XSLT (222.4301), Static Analysis Project (222.4301), Gradle-Java (222.4301), JUnit (222.4301), Java Internationalization (222.4301), IntelliLang (222.4301), Java (222.4301), Maven (222.4301), JetBrains maven model api classes (222.4301), Java IDE Customization (222.4301), Gradle (222.4301), TestNG (222.4301), Subversion (222.4301), Ant (222.4301), EditorConfig (222.4301), Lombok (222.4301), Properties (222.4301), JetBrains Repository Search (222.4301), UI Designer (222.4301), Mercurial (222.4301), Eclipse Interoperability (222.4301), Configuration Script (222.4301), Kotlin (222-1.7.10-release-334-IJ4301), IDEA CORE (222.4301.126), Plugin DevKit (222.4301), Git (222.4301)
+2022-10-05 23:30:42,673 [    849]   INFO - #c.i.c.InspectionApplication - Command line arguments: [inspect, qodana, --stub-profile, /data/profile.xml, /data/project, /data/results]
+2022-10-05 23:30:42,724 [    900]   INFO - STDOUT - By using this Docker image, you agree to
+2022-10-05 23:30:42,725 [    901]   INFO - STDOUT - - JetBrains Privacy Policy (https://jb.gg/jetbrains-privacy-policy)
+2022-10-05 23:30:42,725 [    901]   INFO - STDOUT - - Qodana Community Linters Agreement (https://jb.gg/qodana-community-linters)
+2022-10-05 23:30:42,823 [    999]   INFO - #c.i.u.i.FilePageCache - lower=100; upper=500; buffer=10; max=4842
+2022-10-05 23:30:42,984 [   1160]   INFO - #c.i.u.s.JBUIScale - System scale factor: 1.0 (IDE-managed HiDPI)
+2022-10-05 23:30:43,244 [   1420]   INFO - #c.i.u.i.s.AbstractStorage - Space waste in /data/cache/idea/222/caches/attrib.dat is 3421892 bytes. Compacting now.
+2022-10-05 23:30:43,802 [   1978]   INFO - STDOUT -                                         
+2022-10-05 23:30:43,802 [   1978]   INFO - STDOUT -           _              _       
+2022-10-05 23:30:43,802 [   1978]   INFO - STDOUT -          /\ \           /\ \        Qodana Community for JVM 2022.2
+2022-10-05 23:30:43,803 [   1979]   INFO - STDOUT -         /  \ \         /  \ \       Documentation
+2022-10-05 23:30:43,803 [   1979]   INFO - STDOUT -        / /\ \ \       / /\ \ \      https://jb.gg/qodana-docs
+2022-10-05 23:30:43,803 [   1979]   INFO - STDOUT -       / / /\ \ \     / / /\ \ \     Contact us at
+2022-10-05 23:30:43,803 [   1979]   INFO - STDOUT -      / / /  \ \_\   / / /  \ \_\    qodana-support@jetbrains.com
+2022-10-05 23:30:43,803 [   1979]   INFO - STDOUT -     / / / _ / / /  / / /   / / /    Or via our issue tracker
+2022-10-05 23:30:43,804 [   1980]   INFO - STDOUT -    / / / /\ \/ /  / / /   / / /     https://jb.gg/qodana-issue
+2022-10-05 23:30:43,804 [   1980]   INFO - STDOUT -   / / /__\ \ \/  / / /___/ / /      Or share your feedback at our forum
+2022-10-05 23:30:43,804 [   1980]   INFO - STDOUT -  / / /____\ \ \ / / /____\/ /       https://jb.gg/qodana-forum
+2022-10-05 23:30:43,804 [   1980]   INFO - STDOUT -  \/________\_\/ \/_________/     
+2022-10-05 23:30:43,804 [   1980]   INFO - STDOUT -                                                    
+2022-10-05 23:30:43,805 [   1981]   INFO - STDOUT -                                         
+2022-10-05 23:30:43,824 [   2000]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2022-10-05 23:30:43,847 [   2023]   INFO - STDOUT - Starting up Qodana Community for JVM 2022.2 (build QDJVMC-222.4301.126) ...done.
+2022-10-05 23:30:43,881 [   2057]   INFO - #o.j.p.s.i.r.ConsoleLog - Preparing for the Project opening stage ...
+2022-10-05 23:30:43,890 [   2066]   INFO - STDOUT - Preparing for the Project opening stage ...
+2022-10-05 23:30:44,077 [   2253]   INFO - #c.i.u.i.s.AbstractStorage - Done compacting in 833msec.
+2022-10-05 23:30:44,173 [   2349]   INFO - #c.i.o.v.n.p.PersistentFSConnector - 78 ms to load free records and inverted name index
+2022-10-05 23:30:44,209 [   2385]   WARN - #c.i.o.u.r.RegistryValue - Attempt to load key 'indexing.filename.over.vfs' for not yet loaded registry
+2022-10-05 23:30:44,271 [   2447]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is disabled
+2022-10-05 23:30:44,375 [   2551]   INFO - STDOUT - 
+2022-10-05 23:30:44,493 [   2669]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'unknown.sdk.auto' has changed to 'false'
+2022-10-05 23:30:44,506 [   2682]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'external.system.auto.import.disabled' has changed to 'true'
+2022-10-05 23:30:44,507 [   2683]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'android.gradle.project.startup.activity.disabled' has changed to 'true'
+2022-10-05 23:30:44,507 [   2683]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'android.sdk.local.properties.update.disabled' has changed to 'true'
+2022-10-05 23:30:44,511 [   2687]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'external.system.auto.import.disabled' has changed to 'true'
+2022-10-05 23:30:44,511 [   2687]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'maven.create.dummy.module.on.first.import' has changed to 'false'
+2022-10-05 23:30:44,550 [   2726]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {MAVEN_REPOSITORY=/root/.m2/repository}
+2022-10-05 23:30:44,677 [   2853]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63342
+2022-10-05 23:30:44,786 [   2962]   INFO - #c.i.p.i.a.w.LegacyBridgeArtifactManagerRedefiner - Using workspace model to open project
+2022-10-05 23:30:45,979 [   4155]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Load workspace model from cache in 931 ms
+2022-10-05 23:30:46,026 [   4202]   INFO - c.i.u.i.FileBasedIndexDataInitialization - Index data initialization done: 2638 ms. Initialized indexes: [FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, editorconfig.index.name, xmlProperties, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.intellij.uiDesigner.FormClassIndex, XsltSymbolIndex, LombokConfigIndex, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, ant-imports].
+2022-10-05 23:30:46,301 [   4477]   INFO - c.i.p.s.StubIndexImpl$StubIndexInitialization - Index data initialization done: 273 ms. Initialized stub indexes: {gr.script.class, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, java.field.name, java.class.extlist, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex, properties.index, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSubclassObjectNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, java.method.parameter.types, java.class.shortname, java.module.name, jvm.static.member.type, org.jetbrains.kotlin.idea.stubindex.KotlinInnerTypeAliasClassIdIndex, gr.annot.members, jvm.static.member.name, org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, java.method.name, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex, dom.namespaceKey, org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex, gr.anonymous.class, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, gr.annot.method.name, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, gr.script.fqn, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, java.class.fqn, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex, dom.elementClass, kotlin.primeIndexKey, gr.class.fqn, java.annotations, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, gr.method.name, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, gr.field.name, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex, gr.class.super, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, java.anonymous.baseref, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex}.
+2022-10-05 23:30:46,418 [   4594]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2022-10-05 23:30:46,582 [   4758]   INFO - #c.i.o.v.i.p.NewMappings - VCS Root: [Git] - [<Project>]
+2022-10-05 23:30:47,524 [   5700]   INFO - STDOUT - (Project opening) Opening project...
+2022-10-05 23:30:47,525 [   5701]   INFO - STDOUT -                                                                                 
+2022-10-05 23:30:47,758 [   5934]   INFO - #c.i.u.i.UnindexedFilesUpdater - Started scanning for indexing of project. Reason: On project open
+2022-10-05 23:30:47,764 [   5940]   INFO - #c.i.d.JitWatcher - JIT compilation state checking enabled
+2022-10-05 23:30:47,779 [   5955]   INFO - #c.i.u.i.UnindexedFilesUpdater - Performing delayed pushing properties tasks for project took 3ms; general responsiveness: ok; EDT responsiveness: ok
+2022-10-05 23:30:47,961 [   6137]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning of project uses 2 scanning threads
+2022-10-05 23:30:50,233 [   8409]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning completed for project. Number of scanned files: 49528; Number of files for indexing: 0 took 2453ms; general responsiveness: ok; EDT responsiveness: ok
+2022-10-05 23:30:50,655 [   8831]   INFO - #c.i.o.a.i.ApplicationImpl - LONG VFS PROCESSING. Topic=BulkFileListener, offender=class com.intellij.openapi.vfs.newvfs.AsyncEventSupport$1, message=before, time=314ms
+2022-10-05 23:30:50,839 [   9015]   INFO - #c.i.o.a.i.ApplicationImpl - LONG VFS PROCESSING. Topic=BulkFileListener, offender=class com.intellij.openapi.vfs.newvfs.AsyncEventSupport$1, message=after, time=64ms
+2022-10-05 23:30:50,875 [   9051]   INFO - #c.i.u.i.UnindexedFilesUpdater - Finished for project. No files to index with loading content.
+2022-10-05 23:30:51,824 [  10000]   INFO - #c.i.u.i.FileBasedIndexProjectHandler - Reindexing refreshed files of project : 20218 to update, calculated in 883ms
+2022-10-05 23:30:51,839 [  10015]   INFO - #c.i.u.i.FileBasedIndexProjectHandler - Using 2 threads for indexing
+2022-10-05 23:30:57,269 [  15445]   INFO - #c.i.d.PerformanceWatcherImpl - Reindexing refreshed files of project took 5444ms; general responsiveness: ok; EDT responsiveness: ok
+2022-10-05 23:30:57,294 [  15470]   INFO - #c.i.c.InspectionApplicationBase - Waiting for startup activities
+2022-10-05 23:30:57,482 [  15658]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 8 millis (read time: 3)
+2022-10-05 23:30:57,518 [  15694]   INFO - #g.c.GitHandler - [.] git version
+2022-10-05 23:30:57,576 [  15752]   INFO - #g.c.GitHandler - git version 2.25.1
+2022-10-05 23:30:57,581 [  15757]   INFO - #c.i.o.v.i.p.NewMappings - Mapped Roots: 1
+2022-10-05 23:30:57,634 [  15810]   INFO - #g.c.GitExecutableManager - Git version for /usr/bin/git: 2.25.1.0 (UNIX)
+2022-10-05 23:30:58,706 [  16882]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
+2022-10-05 23:30:59,235 [  17411]   INFO - #c.i.i.s.i.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to run them in background under modal progress, or just making them faster to speed up project opening.
+2022-10-05 23:30:59,298 [  17474]   INFO - #c.i.c.InspectionApplicationBase - Startup activities finished
+2022-10-05 23:30:59,298 [  17474]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 2026ms; general responsiveness: ok; EDT responsiveness: ok
+2022-10-05 23:30:59,767 [  17943]   INFO - #c.i.c.CompilerWorkspaceConfiguration - Available processors: 2
+2022-10-05 23:31:00,022 [  18198]   INFO - #c.i.u.i.FileBasedIndexProjectHandler - Reindexing refreshed files of project : 29 to update, calculated in 0ms
+2022-10-05 23:31:00,025 [  18201]   INFO - #c.i.u.i.FileBasedIndexProjectHandler - Using 2 threads for indexing
+2022-10-05 23:31:00,406 [  18582]   INFO - #c.i.d.PerformanceWatcherImpl - Reindexing refreshed files of project took 384ms; general responsiveness: ok; EDT responsiveness: ok
+2022-10-05 23:31:00,516 [  18692]   INFO - STDOUT - (Project opening) Preparing workspace... 50%
+2022-10-05 23:31:00,517 [  18693]   INFO - STDOUT -                                                                                 
+2022-10-05 23:31:00,526 [  18702]   INFO - STDOUT - (Project opening) done.
+2022-10-05 23:31:00,529 [  18705]   INFO - #o.j.p.s.i.r.ConsoleLog - The Project opening stage completed in 16s
+2022-10-05 23:31:00,529 [  18705]   INFO - STDOUT - The Project opening stage completed in 16s
+2022-10-05 23:31:01,211 [  19387]   INFO - #o.j.p.s.i.r.QodanaInspectionApplication - Used scope: Project Files
+2022-10-05 23:31:01,217 [  19393]   INFO - STDOUT - Initializing project...Inspecting with the 'qodana.starter' profile
+2022-10-05 23:31:01,219 [  19395]   INFO - STDOUT - Loaded the 'qodana.sanity' shared project profile
+2022-10-05 23:31:01,459 [  19635]   INFO - #o.j.p.s.i.r.QodanaInspectionApplication - The 'qodana.sanity' profile is configured for sanity checks
+2022-10-05 23:31:01,858 [  20034]   INFO - #o.j.p.s.i.r.QodanaInspectionApplication - The 'qodana.recommended' profile is configured for promo checks
+2022-10-05 23:31:02,079 [  20255]   INFO - STDOUT - Using 'default' script as qodana run scenario
+2022-10-05 23:31:02,224 [  20400]   INFO - STDOUT -  0%
+2022-10-05 23:31:02,489 [  20665]   INFO - #c.i.i.b.BookmarkManager - no state loaded for old bookmarks
+2022-10-05 23:31:02,496 [  20672]   INFO - #c.i.i.f.FavoritesManager - no state loaded for old favorites
+2022-10-05 23:31:04,231 [  22407]   INFO - STDOUT -  0%
+2022-10-05 23:31:04,292 [  22468]   INFO - #o.j.p.s.i.r.AsyncInspectionToolResultWriter - Async result writer started
+2022-10-05 23:31:04,401 [  22577]   INFO - #c.i.d.MemorySizeConfigurator - Memory size configurator skipped: Unable to determine current -Xmx. VM options file is /opt/idea/bin/idea64.vmoptions
+2022-10-05 23:31:04,492 [  22668]   INFO - #o.j.j.b.i.CompilerReferenceIndex - backward reference index version doesn't exist
+2022-10-05 23:31:04,499 [  22675]   INFO - #c.i.c.b.IsUpToDateCheckStartupActivity - suitable consumer is not found
+2022-10-05 23:31:04,659 [  22835]   INFO - #o.j.p.s.i.r.ConsoleLog - Preparing for the Project configuration stage ...
+2022-10-05 23:31:04,662 [  22838]   INFO - STDOUT - Preparing for the Project configuration stage ...
+2022-10-05 23:31:04,713 [  22889]   INFO - #c.i.w.i.i.j.s.DelayedProjectSynchronizer - Workspace model loaded from cache. Syncing real project state into workspace model in 202 ms. Thread[ApplicationImpl pooled thread 3,4,main]
+2022-10-05 23:31:04,730 [  22906]   INFO - #o.j.i.m.MavenCommandLineInspectionProjectConfigurator - maven project: project is linked: false
+2022-10-05 23:31:04,891 [  23067]   INFO - #o.j.i.maven - Sent token to maven server
+2022-10-05 23:31:05,849 [  24025]   INFO - #o.j.i.maven - start install wrapper https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.6/apache-maven-3.8.6-bin.zip
+2022-10-05 23:31:06,643 [  24819]   INFO - #o.j.i.maven - finish install wrapper https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.6/apache-maven-3.8.6-bin.zip
+2022-10-05 23:31:06,651 [  24827]   INFO - #o.j.i.maven - [connector] MavenServerConnector{6218106d, myDistribution=/opt/idea/plugins/maven/lib/maven3, myJdk=jbr-11, myMultimoduleDirectories=[/data/project]} is incompatible, restarting
+2022-10-05 23:31:06,653 [  24829]   INFO - #c.i.e.r.RemoteProcessSupport - Terminating: 127.0.0.1:12807/Maven36ServerImpl65fe95af
+2022-10-05 23:31:06,665 [  24841]   INFO - #o.j.i.maven - Sent token to maven server
+2022-10-05 23:31:07,425 [  25601]   INFO - #o.j.i.m.p.MavenProjectsProcessor - [maven import] MavenProjectsProcessorReadingTask took 1562ms
+2022-10-05 23:31:34,663 [  52839]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project configuration ... so far 30s
+2022-10-05 23:31:34,664 [  52840]   INFO - STDOUT - 
+2022-10-05 23:31:34,665 [  52841]   INFO - STDOUT -                                                                                 
+2022-10-05 23:32:04,665 [  82841]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project configuration ... so far 1m
+2022-10-05 23:32:04,666 [  82842]   INFO - STDOUT - (Project configuration) Keep running Project configuration ... so far 30s
+2022-10-05 23:32:04,666 [  82842]   INFO - STDOUT -                                                                                 
+2022-10-05 23:32:34,666 [ 112842]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project configuration ... so far 1m 30s
+2022-10-05 23:32:34,667 [ 112843]   INFO - STDOUT - (Project configuration) Keep running Project configuration ... so far 1m
+2022-10-05 23:32:34,667 [ 112843]   INFO - STDOUT -                                                                                 
+2022-10-05 23:33:04,667 [ 142843]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project configuration ... so far 2m
+2022-10-05 23:33:04,668 [ 142844]   INFO - STDOUT - (Project configuration) Keep running Project configuration ... so far 1m 30s
+2022-10-05 23:33:04,668 [ 142844]   INFO - STDOUT -                                                                                 
+2022-10-05 23:33:34,668 [ 172844]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project configuration ... so far 2m 30s
+2022-10-05 23:33:34,669 [ 172845]   INFO - STDOUT - (Project configuration) Keep running Project configuration ... so far 2m
+2022-10-05 23:33:34,669 [ 172845]   INFO - STDOUT -                                                                                 
+2022-10-05 23:33:46,251 [ 184427]   INFO - #c.i.u.i.RootChangesLogger - New rootsChanged event for "project" project with partial rescanning with trace_hash = 1780234196:
 java.lang.Throwable
 	at com.intellij.util.indexing.RootChangesLogger.info(RootChangesLogger.java:27)
 	at com.intellij.util.indexing.EntityIndexingServiceImpl.logRootChanges(EntityIndexingServiceImpl.java:108)
@@ -304,38 +283,37 @@ java.lang.Throwable
 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
 
-2022-10-05 07:47:55,380 [ 191399]   INFO - #c.i.u.i.UnindexedFilesUpdater - Started scanning for indexing of project. Reason: changes in: "Library Maven: ch.qos.logback:logback-classic:1.2.11", "Library Maven: ch.qos.logback:logback-core:1.2.11", "Library Maven: net.bytebuddy:byte-buddy-agent:1.12.17", "Library Maven: net.bytebuddy:byte-buddy:1.12.17", "Library Maven: net.minidev:json-smart:2.4.8", "Library Maven: net.minidev:accessors-smart:2.4.8", "Library Maven: jakarta.annotation:jakarta.annotation-api:1.3.5", "Library Maven: jakarta.activation:jakarta.activation-api:1.2.2", "Library Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3", "Library Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" and 52 iterators more
-2022-10-05 07:47:55,381 [ 191400]   INFO - #c.i.u.i.UnindexedFilesUpdater - Performing delayed pushing properties tasks for project took 1ms; general responsiveness: ok; EDT responsiveness: ok
-2022-10-05 07:47:55,381 [ 191400]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning of project uses 2 scanning threads
-2022-10-05 07:47:57,319 [ 193338]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning completed for project. Number of scanned files: 20133; Number of files for indexing: 20120 took 1938ms; general responsiveness: ok; EDT responsiveness: ok
-2022-10-05 07:47:57,330 [ 193349]   INFO - #c.i.u.i.UnindexedFilesUpdater - Use 2 indexing threads for indexing of project
-2022-10-05 07:48:03,802 [ 199821]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project configuration ... so far 3m
-2022-10-05 07:48:03,803 [ 199822]   INFO - STDOUT - (Project configuration) Keep running Project configuration ... so far 2m 30s
-2022-10-05 07:48:03,803 [ 199822]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:13,409 [ 209428]   INFO - #c.i.u.i.UnindexedFilesUpdater - Finished for project. Unindexed files update took 16088ms; general responsiveness: ok; EDT responsiveness: ok
-2022-10-05 07:48:13,435 [ 209454]   INFO - #c.i.o.a.i.ApplicationImpl - LONG VFS PROCESSING. Topic=BulkFileListener, offender=class com.intellij.openapi.vfs.newvfs.AsyncEventSupport$1, message=after, time=18166ms
-2022-10-05 07:48:13,474 [ 209493]   WARN - #c.i.o.v.n.RefreshSession - Long VFS change processing (18207ms, 1 events): [Compound VfsEvent[create dir 'file:///root/.m2/repository']]
-2022-10-05 07:48:13,535 [ 209554]   INFO - #o.j.i.m.p.MavenProjectsProcessor - [maven import] MavenProjectsProcessorPluginsResolvingTask took 147141ms
-2022-10-05 07:48:13,740 [ 209759]   INFO - #o.j.i.maven - [maven import] applying models to workspace model took 160ms
-2022-10-05 07:48:13,768 [ 209787]   INFO - #c.i.u.i.FileBasedIndexProjectHandler - Reindexing refreshed files of project : 13 to update, calculated in 2ms
-2022-10-05 07:48:13,769 [ 209788]   INFO - #c.i.u.i.FileBasedIndexProjectHandler - Using 2 threads for indexing
-2022-10-05 07:48:14,221 [ 210240]   INFO - #c.i.d.PerformanceWatcherImpl - Reindexing refreshed files of project took 453ms; general responsiveness: ok; EDT responsiveness: ok
-2022-10-05 07:48:14,222 [ 210241]   INFO - #c.i.o.a.i.ApplicationImpl - LONG VFS PROCESSING. Topic=BulkFileListener, offender=class com.intellij.psi.impl.file.impl.PsiVFSListener$1, message=after, time=457ms
-2022-10-05 07:48:14,242 [ 210261]   INFO - #o.j.i.m.p.MavenProjectsProcessor - [maven import] MavenProjectImporterBase$RefreshingFilesTask took 12ms
-2022-10-05 07:48:14,388 [ 210407]   INFO - #o.j.i.m.p.MavenProjectsProcessor - [maven import] MavenProjectsProcessorResolvingTask took 188103ms
-2022-10-05 07:48:14,448 [ 210467]   INFO - #c.i.w.i.i.j.s.DelayedProjectSynchronizer - Workspace model loaded from cache. Syncing real project state into workspace model in 190160 ms. Thread[ApplicationImpl pooled thread 7,4,main]
-2022-10-05 07:48:15,928 [ 211947]   INFO - STDOUT - (Project configuration) Keep running Project configuration ... so far 3m
-2022-10-05 07:48:15,928 [ 211947]   INFO - #o.j.p.s.i.r.ConsoleLog - The Project configuration stage completed in 3m 12s
-2022-10-05 07:48:15,929 [ 211948]   INFO - STDOUT - The Project configuration stage completed in 3m 12s
-2022-10-05 07:48:16,030 [ 212049]   INFO - #o.j.p.s.i.r.ConsoleLog - Preparing for the Project analysis stage ...
-2022-10-05 07:48:16,032 [ 212051]   INFO - STDOUT - Preparing for the Project analysis stage ...
-2022-10-05 07:48:16,097 [ 212116]   INFO - STDOUT - 
-2022-10-05 07:48:16,098 [ 212117]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:16,104 [ 212123]   INFO - #c.i.a.AnalysisScope - Scanning scope took 8 ms
-2022-10-05 07:48:16,121 [ 212140]   INFO - #c.i.c.e.GlobalJavaInspectionContextImpl - Processing external usages finished in 0 ms
-2022-10-05 07:48:16,447 [ 212466]   INFO - STDOUT - (Project analysis) Scanning scope… 0%
-2022-10-05 07:48:16,447 [ 212466]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:17,314 [ 213333]   INFO - #c.i.u.i.RootChangesLogger - New rootsChanged event for "project" project with partial rescanning with trace_hash = -299420377:
+2022-10-05 23:33:46,252 [ 184428]   INFO - #c.i.u.i.UnindexedFilesUpdater - Started scanning for indexing of project. Reason: changes in: "Library Maven: ch.qos.logback:logback-classic:1.2.11", "Library Maven: ch.qos.logback:logback-core:1.2.11", "Library Maven: net.bytebuddy:byte-buddy-agent:1.12.17", "Library Maven: net.bytebuddy:byte-buddy:1.12.17", "Library Maven: net.minidev:json-smart:2.4.8", "Library Maven: net.minidev:accessors-smart:2.4.8", "Library Maven: jakarta.annotation:jakarta.annotation-api:1.3.5", "Library Maven: jakarta.activation:jakarta.activation-api:1.2.2", "Library Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3", "Library Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" and 52 iterators more
+2022-10-05 23:33:46,252 [ 184428]   INFO - #c.i.u.i.UnindexedFilesUpdater - Performing delayed pushing properties tasks for project took 0ms; general responsiveness: ok; EDT responsiveness: ok
+2022-10-05 23:33:46,254 [ 184430]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning of project uses 2 scanning threads
+2022-10-05 23:33:48,125 [ 186301]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning completed for project. Number of scanned files: 20133; Number of files for indexing: 20120 took 1873ms; general responsiveness: ok; EDT responsiveness: ok
+2022-10-05 23:33:48,138 [ 186314]   INFO - #c.i.u.i.UnindexedFilesUpdater - Use 2 indexing threads for indexing of project
+2022-10-05 23:34:04,080 [ 202256]   INFO - #c.i.u.i.UnindexedFilesUpdater - Finished for project. Unindexed files update took 15954ms; general responsiveness: ok; EDT responsiveness: ok
+2022-10-05 23:34:04,102 [ 202278]   INFO - #c.i.o.a.i.ApplicationImpl - LONG VFS PROCESSING. Topic=BulkFileListener, offender=class com.intellij.openapi.vfs.newvfs.AsyncEventSupport$1, message=after, time=17995ms
+2022-10-05 23:34:04,122 [ 202298]   WARN - #c.i.o.v.n.RefreshSession - Long VFS change processing (18022ms, 1 events): [Compound VfsEvent[create dir 'file:///root/.m2/repository']]
+2022-10-05 23:34:04,208 [ 202384]   INFO - #o.j.i.m.p.MavenProjectsProcessor - [maven import] MavenProjectsProcessorPluginsResolvingTask took 135733ms
+2022-10-05 23:34:04,473 [ 202649]   INFO - #o.j.i.maven - [maven import] applying models to workspace model took 205ms
+2022-10-05 23:34:04,516 [ 202692]   INFO - #c.i.u.i.FileBasedIndexProjectHandler - Reindexing refreshed files of project : 13 to update, calculated in 4ms
+2022-10-05 23:34:04,517 [ 202693]   INFO - #c.i.u.i.FileBasedIndexProjectHandler - Using 2 threads for indexing
+2022-10-05 23:34:04,669 [ 202845]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project configuration ... so far 3m
+2022-10-05 23:34:04,670 [ 202846]   INFO - STDOUT - (Project configuration) Keep running Project configuration ... so far 2m 30s
+2022-10-05 23:34:04,671 [ 202847]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:04,947 [ 203123]   INFO - #c.i.d.PerformanceWatcherImpl - Reindexing refreshed files of project took 429ms; general responsiveness: ok; EDT responsiveness: ok
+2022-10-05 23:34:04,947 [ 203123]   INFO - #c.i.o.a.i.ApplicationImpl - LONG VFS PROCESSING. Topic=BulkFileListener, offender=class com.intellij.psi.impl.file.impl.PsiVFSListener$1, message=after, time=437ms
+2022-10-05 23:34:04,969 [ 203145]   INFO - #o.j.i.m.p.MavenProjectsProcessor - [maven import] MavenProjectImporterBase$RefreshingFilesTask took 12ms
+2022-10-05 23:34:05,065 [ 203241]   INFO - #o.j.i.m.p.MavenProjectsProcessor - [maven import] MavenProjectsProcessorResolvingTask took 177623ms
+2022-10-05 23:34:06,702 [ 204878]   INFO - STDOUT - (Project configuration) Keep running Project configuration ... so far 3m
+2022-10-05 23:34:06,703 [ 204879]   INFO - #o.j.p.s.i.r.ConsoleLog - The Project configuration stage completed in 3m 2s
+2022-10-05 23:34:06,703 [ 204879]   INFO - STDOUT - The Project configuration stage completed in 3m 2s
+2022-10-05 23:34:06,827 [ 205003]   INFO - #o.j.p.s.i.r.ConsoleLog - Preparing for the Project analysis stage ...
+2022-10-05 23:34:06,829 [ 205005]   INFO - STDOUT - Preparing for the Project analysis stage ...
+2022-10-05 23:34:06,900 [ 205076]   INFO - STDOUT - 
+2022-10-05 23:34:06,901 [ 205077]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:06,908 [ 205084]   INFO - #c.i.a.AnalysisScope - Scanning scope took 7 ms
+2022-10-05 23:34:06,931 [ 205107]   INFO - #c.i.c.e.GlobalJavaInspectionContextImpl - Processing external usages finished in 0 ms
+2022-10-05 23:34:07,158 [ 205334]   INFO - STDOUT - (Project analysis) Scanning scope… 0%
+2022-10-05 23:34:07,158 [ 205334]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:08,191 [ 206367]   INFO - #c.i.u.i.RootChangesLogger - New rootsChanged event for "project" project with partial rescanning with trace_hash = -751444258:
 java.lang.Throwable
 	at com.intellij.util.indexing.RootChangesLogger.info(RootChangesLogger.java:27)
 	at com.intellij.util.indexing.EntityIndexingServiceImpl.logRootChanges(EntityIndexingServiceImpl.java:108)
@@ -395,97 +373,105 @@ java.lang.Throwable
 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
 
-2022-10-05 07:48:17,314 [ 213333]   INFO - #c.i.u.i.UnindexedFilesUpdater - Started scanning for indexing of project. Reason: changes in: "JDK jbr-11"
-2022-10-05 07:48:17,315 [ 213334]   INFO - #c.i.u.i.UnindexedFilesUpdater - Performing delayed pushing properties tasks for project took 0ms; general responsiveness: ok; EDT responsiveness: ok
-2022-10-05 07:48:17,315 [ 213334]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning of project uses 2 scanning threads
-2022-10-05 07:48:17,474 [ 213493]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning completed for project. Number of scanned files: 29135; Number of files for indexing: 0 took 159ms; general responsiveness: ok; EDT responsiveness: ok
-2022-10-05 07:48:17,474 [ 213493]   INFO - #c.i.u.i.UnindexedFilesUpdater - Finished for project. No files to index with loading content.
-2022-10-05 07:48:17,549 [ 213568]   INFO - STDOUT - (Project analysis) Analyzing code 1% [settings.xml]
-2022-10-05 07:48:17,550 [ 213569]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:20,073 [ 216092]   INFO - STDOUT - (Project analysis) Analyzing code 2% [gc.log]
-2022-10-05 07:48:20,073 [ 216092]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:20,102 [ 216121]   INFO - STDOUT - (Project analysis) Analyzing code 4% [HelloController.java]
-2022-10-05 07:48:20,105 [ 216124]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:20,120 [ 216139]   INFO - STDOUT - (Project analysis) Analyzing code 5% [idea.log]
-2022-10-05 07:48:20,120 [ 216139]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:20,136 [ 216155]   INFO - STDOUT - (Project analysis) Analyzing code 7% [qodana.yml]
-2022-10-05 07:48:20,136 [ 216155]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:20,774 [ 216793]   INFO - STDOUT - (Project analysis) Analyzing code 8% [spec.yml]
-2022-10-05 07:48:20,775 [ 216794]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:20,787 [ 216806]   INFO - STDOUT - (Project analysis) Analyzing code 10% [sanity.profile.xml]
-2022-10-05 07:48:20,788 [ 216807]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:21,464 [ 217483]   INFO - STDOUT - (Project analysis) Analyzing code 11% [ApplicationTests.java]
-2022-10-05 07:48:21,464 [ 217483]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:21,477 [ 217496]   INFO - STDOUT - (Project analysis) Analyzing code 12% [main.profile.xml]
-2022-10-05 07:48:21,477 [ 217496]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:22,470 [ 218489]   INFO - STDOUT - (Project analysis) Analyzing code 14% [README.md]
-2022-10-05 07:48:22,470 [ 218489]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:22,555 [ 218574]   INFO - STDOUT - (Project analysis) Analyzing code 15% [Application.java]
-2022-10-05 07:48:22,556 [ 218575]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:22,568 [ 218587]   INFO - STDOUT - (Project analysis) Analyzing code 17% [changed-files-pushing-events.json]
-2022-10-05 07:48:22,568 [ 218587]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:22,630 [ 218649]   INFO - #c.i.x.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /opt/idea/lib/app.jar!/resources/html5-schema/html5.rnc
-2022-10-05 07:48:22,663 [ 218682]   INFO - STDOUT - (Project analysis) Analyzing code 18% [maven-wrapper.properties]
-2022-10-05 07:48:22,663 [ 218682]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:23,089 [ 219108]   INFO - STDOUT - (Project analysis) Analyzing code 20% [diagnostic-2022-10-05-07-48-13.411.html]
-2022-10-05 07:48:23,089 [ 219108]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:23,359 [ 219378]   INFO - STDOUT - (Project analysis) Analyzing code 21% [promo.profile.xml]
-2022-10-05 07:48:23,360 [ 219379]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:23,379 [ 219398]   INFO - STDOUT - (Project analysis) Analyzing code 22% [effective.profile.xml]
-2022-10-05 07:48:23,379 [ 219398]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:23,395 [ 219414]   INFO - STDOUT - (Project analysis) Analyzing code 24% [apis.http]
-2022-10-05 07:48:23,399 [ 219418]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:23,421 [ 219440]   INFO - STDOUT - (Project analysis) Analyzing code 25% [qodana.yaml]
-2022-10-05 07:48:23,421 [ 219440]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:23,748 [ 219767]   INFO - STDOUT - (Project analysis) Analyzing code 27% [qodana.yaml]
-2022-10-05 07:48:23,748 [ 219767]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:23,996 [ 220015]   INFO - STDOUT - (Project analysis) Analyzing code 28% [diagnostic-2022-10-05-07-45-00.097.json]
-2022-10-05 07:48:23,996 [ 220015]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:24,026 [ 220045]   INFO - STDOUT - (Project analysis) Analyzing code 30% [diagnostic-2022-10-05-07-48-13.411.json]
-2022-10-05 07:48:24,026 [ 220045]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:24,035 [ 220054]   INFO - STDOUT - (Project analysis) Analyzing code 31% [diagnostic-2022-10-05-07-45-00.097.html]
-2022-10-05 07:48:24,036 [ 220055]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:24,062 [ 220081]   INFO - STDOUT - (Project analysis) Analyzing code 32% [mvnw]
-2022-10-05 07:48:24,063 [ 220082]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:24,073 [ 220092]   INFO - STDOUT - (Project analysis) Analyzing code 34% [diagnostic-2022-10-05-07-44-57.408.html]
-2022-10-05 07:48:24,077 [ 220096]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:24,425 [ 220444]   INFO - STDOUT - (Project analysis) Analyzing code 35% [.gitattributes]
-2022-10-05 07:48:24,428 [ 220447]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:24,440 [ 220459]   INFO - STDOUT - (Project analysis) Analyzing code 37% [pom.xml]
-2022-10-05 07:48:24,440 [ 220459]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:24,462 [ 220481]   INFO - STDOUT - (Project analysis) Analyzing code 38% [application-default.yaml]
-2022-10-05 07:48:24,463 [ 220482]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:24,470 [ 220489]   INFO - STDOUT - (Project analysis) Analyzing code 40% [.gitignore]
-2022-10-05 07:48:24,471 [ 220490]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:24,481 [ 220500]   INFO - STDOUT - (Project analysis) Analyzing code 41% [mvnw.cmd]
-2022-10-05 07:48:24,482 [ 220501]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:24,546 [ 220565]   INFO - STDOUT - (Project analysis) Analyzing code 42% [application.yaml]
-2022-10-05 07:48:24,546 [ 220565]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:24,740 [ 220759]   INFO - STDOUT - (Project analysis) Analyzing code 44% [diagnostic-2022-10-05-07-44-52.069.html]
-2022-10-05 07:48:24,747 [ 220766]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:24,820 [ 220839]   INFO - STDOUT - (Project analysis) Analyzing code 45% [diagnostic-2022-10-05-07-44-52.069.json]
-2022-10-05 07:48:24,821 [ 220840]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:24,837 [ 220856]   INFO - STDOUT - (Project analysis) Analyzing code 47% [diagnostic-2022-10-05-07-44-57.408.json]
-2022-10-05 07:48:24,837 [ 220856]   INFO - STDOUT -                                                                                 
-2022-10-05 07:48:24,863 [ 220882]   INFO - STDOUT - (Project analysis) Analyzing code 48% [report.html]
-2022-10-05 07:48:24,864 [ 220883]   INFO - #o.j.p.s.i.r.ConsoleLog - The Project analysis stage completed in 8s
-2022-10-05 07:48:24,864 [ 220883]   INFO - STDOUT - The Project analysis stage completed in 8s
-2022-10-05 07:48:24,869 [ 220888]   INFO - #o.j.p.s.i.r.AsyncInspectionToolResultWriter - Async result writer finished
-2022-10-05 07:48:24,941 [ 220960]   INFO - #o.j.p.s.i.r.QodanaRunner - sessionId: 22100507-925e4e1aa483
-2022-10-05 07:48:24,957 [ 220976]   INFO - STDOUT - 
-2022-10-05 07:48:24,957 [ 220976]   INFO - STDOUT - Qodana - Detailed summary
-2022-10-05 07:48:24,962 [ 220981]   INFO - STDOUT - Analysis results: 0 problems detected
-2022-10-05 07:48:26,775 [ 222794]   INFO - #c.i.c.ComponentStoreImpl - Saving Project(name=project, containerState=COMPONENT_CREATED, componentStore=/data/project)XDebuggerManager took 28 ms
-2022-10-05 07:48:26,838 [ 222857]   INFO - #c.i.c.b.CompilerReferenceServiceBase - backward reference index reader is closed (didn't exist)
-2022-10-05 07:48:26,848 [ 222867]   INFO - #c.i.e.r.RemoteProcessSupport - Terminating: 127.0.0.1:44143/Maven36ServerImpl2accf1af
-2022-10-05 07:48:27,860 [ 223879]   INFO - #c.i.i.StartupUtil - notify that start-up thread is free
-2022-10-05 07:48:27,880 [ 223899]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Started external process for uploading event log
-2022-10-05 07:48:27,885 [ 223904]   INFO - #o.j.i.BuiltInServer - web server stopped
-2022-10-05 07:48:27,898 [ 223917]   INFO - #c.i.o.f.i.FileTypeDetectionService - 169 auto-detected files. Detection took 134 ms
-2022-10-05 07:48:27,898 [ 223917]   INFO - #c.i.u.i.FileBasedIndexImpl - START INDEX SHUTDOWN
-2022-10-05 07:48:27,964 [ 223983]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
-2022-10-05 07:48:27,965 [ 223984]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /data/cache/idea/222/index/rep.names
-2022-10-05 07:48:27,965 [ 223984]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /data/cache/idea/222/index/rep.names
-2022-10-05 07:48:27,994 [ 224013]   INFO - #c.i.u.i.FileBasedIndexImpl - END INDEX SHUTDOWN
-2022-10-05 07:48:28,075 [ 224094]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
-2022-10-05 07:48:28,089 [ 224108]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed
+2022-10-05 23:34:08,192 [ 206368]   INFO - #c.i.u.i.UnindexedFilesUpdater - Started scanning for indexing of project. Reason: changes in: "JDK jbr-11"
+2022-10-05 23:34:08,192 [ 206368]   INFO - #c.i.u.i.UnindexedFilesUpdater - Performing delayed pushing properties tasks for project took 0ms; general responsiveness: ok; EDT responsiveness: ok
+2022-10-05 23:34:08,192 [ 206368]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning of project uses 2 scanning threads
+2022-10-05 23:34:08,358 [ 206534]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning completed for project. Number of scanned files: 29135; Number of files for indexing: 0 took 166ms; general responsiveness: ok; EDT responsiveness: ok
+2022-10-05 23:34:08,359 [ 206535]   INFO - #c.i.u.i.UnindexedFilesUpdater - Finished for project. No files to index with loading content.
+2022-10-05 23:34:09,252 [ 207428]   INFO - STDOUT - (Project analysis) Analyzing code 1% [idea.log]
+2022-10-05 23:34:09,252 [ 207428]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:12,345 [ 210521]   INFO - STDOUT - (Project analysis) Analyzing code 2% [sanity.profile.xml]
+2022-10-05 23:34:12,345 [ 210521]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:12,364 [ 210540]   INFO - STDOUT - (Project analysis) Analyzing code 4% [HelloController.java]
+2022-10-05 23:34:12,364 [ 210540]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:12,813 [ 210989]   INFO - STDOUT - (Project analysis) Analyzing code 5% [settings.xml]
+2022-10-05 23:34:12,813 [ 210989]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:12,822 [ 210998]   INFO - STDOUT - (Project analysis) Analyzing code 7% [main.profile.xml]
+2022-10-05 23:34:12,822 [ 210998]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:13,667 [ 211843]   INFO - STDOUT - (Project analysis) Analyzing code 8% [README.md]
+2022-10-05 23:34:13,667 [ 211843]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:13,691 [ 211867]   INFO - #c.i.x.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /opt/idea/lib/app.jar!/resources/html5-schema/html5.rnc
+2022-10-05 23:34:13,699 [ 211875]   INFO - STDOUT - (Project analysis) Analyzing code 10% [Application.java]
+2022-10-05 23:34:13,699 [ 211875]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:13,709 [ 211885]   INFO - STDOUT - (Project analysis) Analyzing code 11% [diagnostic-2022-10-05-23-31-00.406.html]
+2022-10-05 23:34:13,710 [ 211886]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:13,720 [ 211896]   INFO - STDOUT - (Project analysis) Analyzing code 12% [gc.log]
+2022-10-05 23:34:13,720 [ 211896]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:13,794 [ 211970]   INFO - STDOUT - (Project analysis) Analyzing code 14% [maven-wrapper.properties]
+2022-10-05 23:34:13,794 [ 211970]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,263 [ 212439]   INFO - STDOUT - (Project analysis) Analyzing code 15% [changed-files-pushing-events.json]
+2022-10-05 23:34:14,264 [ 212440]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,419 [ 212595]   INFO - STDOUT - (Project analysis) Analyzing code 17% [promo.profile.xml]
+2022-10-05 23:34:14,419 [ 212595]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,431 [ 212607]   INFO - STDOUT - (Project analysis) Analyzing code 18% [effective.profile.xml]
+2022-10-05 23:34:14,431 [ 212607]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,442 [ 212618]   INFO - STDOUT - (Project analysis) Analyzing code 20% [qodana.yml]
+2022-10-05 23:34:14,442 [ 212618]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,452 [ 212628]   INFO - STDOUT - (Project analysis) Analyzing code 21% [ApplicationTests.java]
+2022-10-05 23:34:14,452 [ 212628]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,460 [ 212636]   INFO - STDOUT - (Project analysis) Analyzing code 22% [apis.http]
+2022-10-05 23:34:14,461 [ 212637]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,469 [ 212645]   INFO - STDOUT - (Project analysis) Analyzing code 24% [spec.yml]
+2022-10-05 23:34:14,469 [ 212645]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,481 [ 212657]   INFO - STDOUT - (Project analysis) Analyzing code 25% [qodana.yaml]
+2022-10-05 23:34:14,481 [ 212657]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,556 [ 212732]   INFO - STDOUT - (Project analysis) Analyzing code 27% [qodana.yaml]
+2022-10-05 23:34:14,556 [ 212732]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,877 [ 213053]   INFO - STDOUT - (Project analysis) Analyzing code 28% [diagnostic-2022-10-05-23-34-04.084.html]
+2022-10-05 23:34:14,878 [ 213054]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,906 [ 213082]   INFO - STDOUT - (Project analysis) Analyzing code 30% [diagnostic-2022-10-05-23-34-04.084.json]
+2022-10-05 23:34:14,906 [ 213082]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,918 [ 213094]   INFO - STDOUT - (Project analysis) Analyzing code 31% [diagnostic-2022-10-05-23-31-00.406.json]
+2022-10-05 23:34:14,918 [ 213094]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,927 [ 213103]   INFO - STDOUT - (Project analysis) Analyzing code 32% [.gitattributes]
+2022-10-05 23:34:14,928 [ 213104]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,957 [ 213133]   INFO - STDOUT - (Project analysis) Analyzing code 34% [mvnw]
+2022-10-05 23:34:14,957 [ 213133]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:14,978 [ 213154]   INFO - STDOUT - (Project analysis) Analyzing code 35% [diagnostic-2022-10-05-23-30-57.265.html]
+2022-10-05 23:34:14,978 [ 213154]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:15,127 [ 213303]   INFO - STDOUT - (Project analysis) Analyzing code 37% [.gitignore]
+2022-10-05 23:34:15,127 [ 213303]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:15,409 [ 213585]   INFO - STDOUT - (Project analysis) Analyzing code 38% [mvnw.cmd]
+2022-10-05 23:34:15,410 [ 213586]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:15,659 [ 213835]   INFO - STDOUT - (Project analysis) Analyzing code 40% [application-default.yaml]
+2022-10-05 23:34:15,659 [ 213835]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:15,668 [ 213844]   INFO - STDOUT - (Project analysis) Analyzing code 41% [pom.xml]
+2022-10-05 23:34:15,668 [ 213844]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:15,804 [ 213980]   INFO - STDOUT - (Project analysis) Analyzing code 42% [application.yaml]
+2022-10-05 23:34:15,804 [ 213980]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:15,846 [ 214022]   INFO - STDOUT - (Project analysis) Analyzing code 44% [diagnostic-2022-10-05-23-30-50.920.json]
+2022-10-05 23:34:15,846 [ 214022]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:15,887 [ 214063]   INFO - STDOUT - (Project analysis) Analyzing code 45% [diagnostic-2022-10-05-23-30-50.920.html]
+2022-10-05 23:34:15,887 [ 214063]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:15,904 [ 214080]   INFO - STDOUT - (Project analysis) Analyzing code 47% [diagnostic-2022-10-05-23-30-57.265.json]
+2022-10-05 23:34:15,904 [ 214080]   INFO - STDOUT -                                                                                 
+2022-10-05 23:34:15,919 [ 214095]   INFO - STDOUT - (Project analysis) Analyzing code 48% [report.html]
+2022-10-05 23:34:15,919 [ 214095]   INFO - #o.j.p.s.i.r.ConsoleLog - The Project analysis stage completed in 9s
+2022-10-05 23:34:15,920 [ 214096]   INFO - STDOUT - The Project analysis stage completed in 9s
+2022-10-05 23:34:15,926 [ 214102]   INFO - #o.j.p.s.i.r.AsyncInspectionToolResultWriter - Async result writer finished
+2022-10-05 23:34:16,020 [ 214196]   INFO - #o.j.p.s.i.r.QodanaRunner - sessionId: 22100523-a098a658dd8f
+2022-10-05 23:34:16,143 [ 214319]   INFO - STDOUT - 
+2022-10-05 23:34:16,144 [ 214320]   INFO - STDOUT - Qodana - Detailed summary
+2022-10-05 23:34:16,146 [ 214322]   INFO - STDOUT - Analysis results: 1 problems detected
+2022-10-05 23:34:16,148 [ 214324]   INFO - STDOUT - By severity: High - 1
+2022-10-05 23:34:16,152 [ 214328]   INFO - STDOUT - ----------------------------------------------------------------------------
+2022-10-05 23:34:16,152 [ 214328]   INFO - STDOUT - Name                                                Severity  Problems count
+2022-10-05 23:34:16,152 [ 214328]   INFO - STDOUT - ----------------------------------------------------------------------------
+2022-10-05 23:34:16,152 [ 214328]   INFO - STDOUT - Constant conditions & exceptions                        High               1
+2022-10-05 23:34:16,153 [ 214329]   INFO - STDOUT - ----------------------------------------------------------------------------
+2022-10-05 23:34:16,153 [ 214329]   INFO - STDOUT - 
+2022-10-05 23:34:17,893 [ 216069]   INFO - #c.i.c.ComponentStoreImpl - Saving Project(name=project, containerState=COMPONENT_CREATED, componentStore=/data/project)XDebuggerManager took 22 ms
+2022-10-05 23:34:17,966 [ 216142]   INFO - #c.i.c.b.CompilerReferenceServiceBase - backward reference index reader is closed (didn't exist)
+2022-10-05 23:34:17,981 [ 216157]   INFO - #c.i.e.r.RemoteProcessSupport - Terminating: 127.0.0.1:40593/Maven36ServerImplca7330dc
+2022-10-05 23:34:18,991 [ 217167]   INFO - #c.i.i.StartupUtil - notify that start-up thread is free
+2022-10-05 23:34:19,019 [ 217195]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Started external process for uploading event log
+2022-10-05 23:34:19,023 [ 217199]   INFO - #o.j.i.BuiltInServer - web server stopped
+2022-10-05 23:34:19,041 [ 217217]   INFO - #c.i.o.f.i.FileTypeDetectionService - 169 auto-detected files. Detection took 135 ms
+2022-10-05 23:34:19,041 [ 217217]   INFO - #c.i.u.i.FileBasedIndexImpl - START INDEX SHUTDOWN
+2022-10-05 23:34:19,147 [ 217323]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2022-10-05 23:34:19,147 [ 217323]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /data/cache/idea/222/index/rep.names
+2022-10-05 23:34:19,150 [ 217326]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /data/cache/idea/222/index/rep.names
+2022-10-05 23:34:19,238 [ 217414]   INFO - #c.i.u.i.FileBasedIndexImpl - END INDEX SHUTDOWN
+2022-10-05 23:34:19,421 [ 217597]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2022-10-05 23:34:19,442 [ 217618]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed
+2022-10-05 23:34:19,463 [ 217639]   INFO - #c.i.i.StartupUtil - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------

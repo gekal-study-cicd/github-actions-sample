@@ -36,11 +36,11 @@
       "language": "en-US",
       "versionControlProvenance": [
         {
-          "repositoryUri": "https://github.com/gekal-study-cicd/github-acction-sample",
-          "revisionId": "36cf20f41c0e737abe6d234d14efa1610186efd9",
+          "repositoryUri": "https://github.com/gekal-study-cicd/github-actions-sample",
+          "revisionId": "8a097d7d5deb8916bd32918d582d44366ba58965",
           "branch": "main",
           "properties": {
-            "repoUrl": "https://github.com/gekal-study-cicd/github-acction-sample",
+            "repoUrl": "https://github.com/gekal-study-cicd/github-actions-sample",
             "lastAuthorName": "gekal",
             "vcsType": "Git",
             "lastAuthorEmail": "liu.hongying@hotmail.com",
@@ -56,9 +56,9 @@
       "results": [],
       "automationDetails": {
         "id": "project/qodana/2022-10-05",
-        "guid": "38be890e-7ece-4882-ab88-451f6185de27",
+        "guid": "0360d3f0-1158-4fac-842c-e964f7c758d4",
         "properties": {
-          "jobUrl": "https://github.com/gekal-study-cicd/github-acction-sample/actions/runs/3188102575",
+          "jobUrl": "https://github.com/gekal-study-cicd/github-actions-sample/actions/runs/3193400713",
           "tags": [
             "jobUrl"
           ]
@@ -69,7 +69,7 @@
         "\n"
       ],
       "properties": {
-        "deviceId": "200820300000000-11dd-5024-3d65-efa85fe4454a",
+        "deviceId": "200820300000000-a8fc-acb2-a7ab-c9385ec91e57",
         "tags": [
           "deviceId"
         ]
